@@ -4,7 +4,7 @@
 #
 Name     : azure-mgmt-recoveryservicesbackup
 Version  : 0.7.0
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/7d/bf/8ad3f76d3587fc77e55d7f49f3ea71d88f1cbb79c6d2bfea32665d6c3391/azure-mgmt-recoveryservicesbackup-0.7.0.zip
 Source0  : https://files.pythonhosted.org/packages/7d/bf/8ad3f76d3587fc77e55d7f49f3ea71d88f1cbb79c6d2bfea32665d6c3391/azure-mgmt-recoveryservicesbackup-0.7.0.zip
 Summary  : Microsoft Azure Recovery Services Backup Management Client Library for Python
