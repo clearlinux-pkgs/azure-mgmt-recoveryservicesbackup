@@ -4,7 +4,7 @@
 #
 Name     : azure-mgmt-recoveryservicesbackup
 Version  : 0.7.0
-Release  : 8
+Release  : 9
 URL      : https://files.pythonhosted.org/packages/7d/bf/8ad3f76d3587fc77e55d7f49f3ea71d88f1cbb79c6d2bfea32665d6c3391/azure-mgmt-recoveryservicesbackup-0.7.0.zip
 Source0  : https://files.pythonhosted.org/packages/7d/bf/8ad3f76d3587fc77e55d7f49f3ea71d88f1cbb79c6d2bfea32665d6c3391/azure-mgmt-recoveryservicesbackup-0.7.0.zip
 Summary  : Microsoft Azure Recovery Services Backup Management Client Library for Python
@@ -75,8 +75,8 @@ echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
 echo ----[ mark ]----
 ## Remove excluded files
-rm -f %{buildroot}/usr/lib/python3.9/site-packages/azure/mgmt/__init__.py
-rm -f %{buildroot}/usr/lib/python3.9/site-packages/azure/mgmt/__pycache__/__init__.cpython-38.pyc
+rm -f %{buildroot}/usr/lib/python3*/site-packages/azure/mgmt/__init__.py
+rm -f %{buildroot}/usr/lib/python3*/site-packages/azure/mgmt/__pycache__/__init__.cpython-3*.pyc
 
 %files
 %defattr(-,root,root,-)
